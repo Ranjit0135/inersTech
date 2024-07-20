@@ -1,9 +1,7 @@
-// import { Search } from "@mui/icons-material";
 import Box from "@mui/material/Box";
 
 import InputBase from "@mui/material/InputBase";
 import SearchIcon from "@mui/icons-material/Search";
-// import { Typography } from "@mui/material";
 
 const Banner = () => {
   return (
@@ -21,14 +19,6 @@ const Banner = () => {
         textAlign: "center",
       }}
     >
-      {/* <Typography
-        sx={{
-          color: "white",
-        }}
-      >
-        Hello world
-      </Typography> */}
-      {/* <div className="relative  rounded-2xl px-4 py-2 top-28 w-full max-w-2xl "> */}
       <InputBase
         sx={{
           width: "60%",
@@ -36,7 +26,7 @@ const Banner = () => {
           borderRadius: "70px",
           height: "50px",
           background: "white",
-          padding: "0 2.5rem", // Add space for the icon
+          padding: "0 2.5rem",
           "& .MuiInputBase-input": {
             color: "black",
             backgroundColor: "white",
@@ -57,7 +47,6 @@ const Banner = () => {
           />
         }
       />
-      {/* </div> */}
     </Box>
   );
 };

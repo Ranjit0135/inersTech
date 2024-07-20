@@ -42,7 +42,7 @@ const Footer = () => {
               <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemIcon>
-                    <AddIcCallIcon />
+                    <AddIcCallIcon style={{ color: "white" }} />
                   </ListItemIcon>
                   <ListItemText primary="+977 9813990060" />
                 </ListItemButton>
@@ -50,7 +50,7 @@ const Footer = () => {
               <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemIcon>
-                    <LocationOnIcon />
+                    <LocationOnIcon style={{ color: "white" }} />
                   </ListItemIcon>
                   <ListItemText primary="Gwarko,Lalitpur" />
                 </ListItemButton>
@@ -58,7 +58,7 @@ const Footer = () => {
               <ListItem disablePadding>
                 <ListItemButton>
                   <ListItemIcon>
-                    <EmailIcon />
+                    <EmailIcon style={{ color: "white" }} />
                   </ListItemIcon>
                   <ListItemText primary="rairanjit391@gmail.com" />
                 </ListItemButton>
@@ -74,9 +74,19 @@ const Footer = () => {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            mt: "20px",
+            mt: "10px",
           }}
         >
+          <Typography
+            variant="h6"
+            sx={{
+              textDecoration: "underline",
+
+              letterSpacing: "3px",
+            }}
+          >
+            Useful Links
+          </Typography>
           <List>
             <ListItem disablePadding>
               <ListItemButton>
@@ -107,55 +117,86 @@ const Footer = () => {
           sx={{
             display: "flex",
             flexDirection: "column",
+            justifyContent: "center",
             flexWrap: "wrap",
             alignItems: "center",
-
-            mt: "20px",
+            gap: "10px",
           }}
         >
-          <Typography>Our Social / Media Handle</Typography>
-          <List sx={{ display: "flex", flexWrap: "wrap" }}>
-            {/* <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemText primary="Our Social / Media Handles" />
-              </ListItemButton>
-            </ListItem> */}
-            <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemIcon color="white">
-                  <YouTubeIcon />
-                </ListItemIcon>
-              </ListItemButton>
+          <Typography sx={{ display: "flex ", justifyContent: "center" }}>
+            Our Social / Media Handle
+          </Typography>
+          <List
+            sx={{
+              width: "300px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              flexWrap: "wrap",
+            }}
+          >
+            <ListItem disablePadding sx={{ width: "50px" }}>
+              <ListItemIcon
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  color: "white",
+                }}
+              >
+                <YouTubeIcon />
+              </ListItemIcon>
             </ListItem>
-            <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  <InstagramIcon />
-                </ListItemIcon>
-              </ListItemButton>
+            <ListItem disablePadding sx={{ width: "50px" }}>
+              <ListItemIcon
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  color: "white",
+                }}
+              >
+                <InstagramIcon />
+              </ListItemIcon>
             </ListItem>
-            <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  <XIcon />
-                </ListItemIcon>
-              </ListItemButton>
+            <ListItem disablePadding sx={{ width: "50px" }}>
+              <ListItemIcon
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  color: "white",
+                }}
+              >
+                <XIcon />
+              </ListItemIcon>
             </ListItem>
-            <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  <FacebookIcon />
-                </ListItemIcon>
-              </ListItemButton>
+            <ListItem disablePadding sx={{ width: "50px" }}>
+              <ListItemIcon
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  color: "white",
+                }}
+              >
+                <FacebookIcon />
+              </ListItemIcon>
             </ListItem>
-            <ListItem disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  <LinkedInIcon />
-                </ListItemIcon>
-              </ListItemButton>
+            <ListItem disablePadding sx={{ width: "50px" }}>
+              <ListItemIcon
+                sx={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  color: "white",
+                }}
+              >
+                <LinkedInIcon />
+              </ListItemIcon>
             </ListItem>
           </List>
+          <Typography sx={{ marginTop: "10px" }}>Follow Us</Typography>
         </Grid>
       </Grid>
       <Typography sx={{ display: "flex", justifyContent: "center", pt: "5px" }}>

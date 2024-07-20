@@ -60,12 +60,10 @@ const Navbar = () => {
                 <Button variant="contained" component={Link} to="/sign-up">
                   Login
                 </Button>
-                {/* <Button variant="contained">Signup</Button> */}
               </Box>
             </>
           )}
         </Toolbar>
-        {/* <MenuDrawer /> */}
       </AppBar>
     </>
   );

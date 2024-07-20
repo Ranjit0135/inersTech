@@ -1,7 +1,5 @@
 import "ldrs/dotSpinner";
 
-// Default values shown
-
 const Loading = () => {
   return (
     <div>
