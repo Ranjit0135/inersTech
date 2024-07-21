@@ -54,7 +54,7 @@ const MenuDrawer = () => {
                   sx={{
                     letterSpacing: "5px",
                     "& .MuiListItemText-primary": {
-                      letterSpacing: "2px", // Adjust the value to control the spacing
+                      letterSpacing: "2px",
                     },
                   }}
                 >

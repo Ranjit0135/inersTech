@@ -1,4 +1,4 @@
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 
 const About = () => {
   return (
@@ -41,22 +41,12 @@ const About = () => {
             style={{
               width: "100%",
               height: "auto",
-              borderRadius: "1rem", // Rounded corners
+
+              borderRadius: "1rem",
             }}
           />
         </Grid>
       </Grid>
-      <Typography
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          marginTop: "50px",
-          marginBottom: "30px",
-        }}
-      >
-        asb,jnm
-      </Typography>
     </>
   );
 };
